@@ -1,4 +1,4 @@
-// 1670B - общажные войны
+// 1670B общажные войны
 #include <iostream>
 #include <string>
 
