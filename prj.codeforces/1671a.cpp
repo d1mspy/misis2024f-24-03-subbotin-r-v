@@ -1,3 +1,4 @@
+// 1671a построение строки
 #include <iostream>
 #include <string>
 
