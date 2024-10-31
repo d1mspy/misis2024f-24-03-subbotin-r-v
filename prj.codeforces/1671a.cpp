@@ -7,9 +7,9 @@ int main() {
 	while (t--) {
 		std::string s = "";
 		std::cin >> s;
-		if (s.size() < 2 || (s.size() == 2 && s[0] != s[1])|| s.substr(0, 1) == "ab" 
-        || s.substr(0, 1) == "ba" || s.substr(s.size()-2, s.size()-1) == "ab" 
-        || s.substr(s.size()-2, s.size()-2) == "ba") {
+		if (s.size() < 2 || (s.size() == 2 && s[0] != s[1])|| s.substr(0, 2) == "ab" 
+        || s.substr(0, 2) == "ba" || s.substr(s.size()-2, 2) == "ab" 
+        || s.substr(s.size()-2, 2) == "ba") {
 			std::cout << "NO" << '\n';
 		} else {
 			bool flag = true;
