@@ -11,11 +11,11 @@ int main() {
             cnt += a; 
         }
         if (cnt == 0) {
-            std::cout << '0';
+            std::cout << '0' << '\n';
         } else if (cnt < 4) {
-            std::cout << '1';
+            std::cout << '1' << '\n';
         } else if (cnt == 4) {
-            std::cout << '2';
+            std::cout << '2' << '\n';
         }
     }
 }
