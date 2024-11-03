@@ -1,8 +1,4 @@
-STAMP: 20241030-080233
-ERROR: file codeforces.id is absent
-ERROR: file codeforces.id is absent
-ERROR: file prj.test/CMakeLists.txt is absent
-ERROR: file prj.test/complex_doctest.cpp is absent
-ERROR: file prj.test/complex_test.cpp is absent
-OK: CMake generator successed
+STAMP: 20241103-093713
+OK: file codeforces.id is correct
+ERROR: CMake generator failed
 OK: folder prj.codeforces structure is correct
