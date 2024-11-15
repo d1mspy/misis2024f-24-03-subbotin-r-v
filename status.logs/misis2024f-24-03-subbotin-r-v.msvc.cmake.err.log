@@ -1,4 +1,4 @@
-CMake Error at D:/programs/vcpkg/scripts/buildsystems/vcpkg.cmake:598 (_add_executable):
+CMake Error at D:/programs/vcpkg/scripts/buildsystems/vcpkg.cmake:596 (_add_executable):
   Cannot find source file:
 
     1512a.cpp
@@ -6,7 +6,7 @@ Call Stack (most recent call first):
   prj.codeforces/CMakeLists.txt:15 (add_executable)
 
 
-CMake Error at D:/programs/vcpkg/scripts/buildsystems/vcpkg.cmake:598 (_add_executable):
+CMake Error at D:/programs/vcpkg/scripts/buildsystems/vcpkg.cmake:596 (_add_executable):
   No SOURCES given to target: 1521a
 Call Stack (most recent call first):
   prj.codeforces/CMakeLists.txt:15 (add_executable)
