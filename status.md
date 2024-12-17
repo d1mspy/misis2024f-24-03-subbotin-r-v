@@ -1,4 +1,4 @@
-STAMP: 20241216-222323
+STAMP: 20241217-071507
 OK: file codeforces.id is correct
 ERROR: file prj.test/arrayd_doctest.cpp is absent
 ERROR: file prj.test/arrayt_doctest.cpp is absent
