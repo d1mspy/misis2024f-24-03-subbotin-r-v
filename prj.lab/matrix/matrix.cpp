@@ -50,6 +50,19 @@ public:
     return *this;
   }
 
+  void resize(size_t newRows, size_t newCols) {
+    Matrix temp(newRows, newCols);
+    size_t minRows = std::min(rows, newRows);
+    size_t minCols = std::min(cols, newCols);
+
+    for (size_t i = 0; i < minRows; ++i) {
+      for (size_t j = 0; j < minCols; ++j) {
+        temp.data[i][j] = data[i][j];
+      }
+    }
+    *this = std::move(temp);
+  }
+
 };
 
 int main() {
