@@ -66,7 +66,7 @@ struct Complex {
 [[nodiscard]] Complex operator/(const Complex& lhs, const double rhs); // деление комплексных чисел
 [[nodiscard]] Complex operator/(const double lhs, const Complex& rhs); // деление комплексных чисел
 
-// Форматированный вввод в потока ostrm комплексного числа \se Complex::write_to.
+// Форматированный вывод в поток ostrm комплексного числа \se Complex::write_to.
 inline std::ostream& operator<<(std::ostream& ostrm, const Complex& rhs) noexcept {
 	return rhs.WriteTo(ostrm);
 }
