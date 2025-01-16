@@ -1,7 +1,7 @@
 #include <iostream>
 #include <stdexcept>
 
-class Matrix {
+class MatrixA {
 private:
   float** data {nullptr};
   size_t rows {0};
@@ -25,17 +25,17 @@ private:
   }
 
 public:
-	Matrix() = default;
+	MatrixA() = default;
 
-	Matrix(size_t r, size_t c) : data(nullptr), rows(r), cols(c) {
+	MatrixA(size_t r, size_t c) : data(nullptr), rows(r), cols(c) {
 		allocateMemory(rows, cols);
 	}
 
-	~Matrix() {
+	~MatrixA() {
     freeMemory();
   }
 
-  Matrix& operator=(const Matrix& other) {
+  MatrixA& operator=(const MatrixA& other) {
     if (this != &other) {
       freeMemory();
       rows = other.rows;
@@ -51,7 +51,7 @@ public:
   }
 
   void resize(size_t newRows, size_t newCols) {
-    Matrix temp(newRows, newCols);
+    MatrixA temp(newRows, newCols);
     size_t minRows = std::min(rows, newRows);
     size_t minCols = std::min(cols, newCols);
 
